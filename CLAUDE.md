@@ -10,7 +10,7 @@ Guía para Claude Code al trabajar en este repositorio.
 ## Control de versiones
 
 - No hacer `git commit` (ni `git push`) a menos que el usuario lo pida explícitamente en el mensaje actual. Preparar los cambios y describir qué se haría, pero esperar confirmación antes de commitear.
-- Si el usuario ya está en `main`, crear una rama antes de commitear (salvo que pida trabajar directo en `main`).
+- Si el usuario ya está en `main`, sugerir crear una rama antes de commitear, pero no crearla por defecto: esperar confirmación explícita antes de hacerlo.
 - Usar nombres de rama canónicos con el formato `<tipo>/<descripcion-corta-en-kebab-case>`, por ejemplo:
   - `feature/nombre-de-la-funcionalidad`
   - `fix/nombre-del-bug`
